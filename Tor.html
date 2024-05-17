@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tor Project | Anonymity Online</title>
+    <link rel="shortcut icon" href="01.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
+    <style type="text/css">
+        header{
+            background-color: #59316B;
+            padding-top: 40px;
+            margin-left: -10px;
+            margin-top: -10px;
+            margin-right: -8px;
+        }
+        .header1{
+            margin-left: 50px;
+            width: 80px;
+        }
+        .button1{
+            padding-top: 6px;
+            padding-bottom: 6px;
+            margin-left: 3px;
+            margin-right: 3px;
+            background-color: #FFBF00;
+            color: black;
+            border: 1px solid #FFBF00;
+            font-size: 17px;
+            border-radius: 5px;
+            margin-left: 30px;
+            margin-top: -9px;
+            font-weight: 600;
+        }
+        .header2{
+            margin-left: 280px; 
+            color: white; 
+            margin-top: -8px; 
+            font-size: 14px; 
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+        .header3{
+            margin-left: 25px; 
+            color: white; 
+            margin-top: -8px; 
+            font-size: 14px; 
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+        .header4{
+            margin-left: 25px; 
+            color: white; 
+            margin-top: -8px; 
+            font-size: 14px; 
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+        .header5{
+            margin-left: 25px; 
+            color: white; 
+            margin-top: -8px; 
+            font-size: 14px; 
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+        .header6{
+            margin-left: 25px; 
+            color: white; 
+            margin-top: -8px; 
+            font-size: 14px; 
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            text-decoration: none;
+        }
+        select{
+            background-color: #59316B;
+            color: white;
+            border-color: #59316B;
+            width: 100px;
+            margin-top: -20px;
+            margin-left: 250px;
+            font-size: 15px;
+        }
+        .button2{
+            border: 1px solid;
+            border-radius: 7px;
+            background-color: #59316B;
+            color: white;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 10px;
+            margin-top: -30px;
+            font-size: 15px;  
+        }
+        .parth1{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 100;   
+        }
+        .parth2{
+            font-size: 80px;
+            color: white;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 100;  
+            margin-top: -40px; 
+        }
+        .parth3{
+            font-size: 30px;
+            color: white;
+            text-align: center;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-weight: 100;  
+            margin-top: -40px; 
+        }
+        .button3{
+            border: 1px solid;
+            border-radius: 7px;
+            background-color: #59316B;
+            color: white;
+            padding-right: 15px;
+            padding-left: 15px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            margin-left: 600px;
+            margin-top: -30px;
+            font-size: 20px;  
+        } 
+
+
+
+
+
+        .img1{
+            width: 350px;
+            margin-left: 200px;
+            margin-top: 70px;
+        }
+        .parth4{
+            margin-left: 650px;
+            font-size: 25px;
+            margin-top: -200px;
+            color: #7d4698;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .div1 p{
+            margin-left: 650px;
+            font-size: 20px;
+            margin-top: -8px;
+            color: black;
+            line-height: -0.1px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+
+
+
+        .img2{
+            width: 200px;
+            margin-left: 950px;
+            margin-top: 70px;
+        }
+        .parth5{
+            margin-left: 200px;
+            font-size: 25px;
+            margin-top: -200px;
+            color: #7d4698;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .div2 p{
+            margin-left: 200px;
+            font-size: 20px;
+            margin-top: -8px;
+            color: black;
+            line-height: -0.1px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+
+
+
+        .img3{
+            width: 300px;
+            margin-left: 200px;
+            margin-top: 70px;
+        }
+        .parth6{
+            margin-left: 650px;
+            font-size: 25px;
+            margin-top: -200px;
+            color: #7d4698;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .div3 p{
+            margin-left: 650px;
+            font-size: 20px;
+            margin-top: -8px;
+            color: black;
+            line-height: -0.1px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+
+
+        .img4{
+            width: 220px;
+            margin-left: 950px;
+            margin-top: 70px;
+        }
+        .parth7{
+            margin-left: 200px;
+            font-size: 25px;
+            margin-top: -200px;
+            color: #7d4698;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .div4 p{
+            margin-left: 200px;
+            font-size: 20px;
+            margin-top: -8px;
+            color: black;
+            line-height: -0.1px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+
+
+        .img5{
+            width: 350px;
+            margin-left: 200px;
+            margin-top: 70px;
+        }
+        .parth8{
+            margin-left: 650px;
+            font-size: 25px;
+            margin-top: -200px;
+            color: #7d4698;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .div5 p{
+            margin-left: 650px;
+            font-size: 20px;
+            margin-top: -8px;
+            color: black;
+            line-height: -0.1px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+
+
+        .about{
+            margin-left: 200px;
+            font-size: 18px;
+            color: #7d4698;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .div6{
+            font-size: 60px;
+            margin-left: 200px;
+            color: #484848;
+            line-height: 25px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            width: 80%;
+        }
+
+
+
+
+
+        .footer{
+            background-color: #59316B;
+            color: white;
+            padding-top: 50px;
+            margin-left: -10px;
+            margin-bottom: -50px;
+        }
+        .parth9{
+            font-size: 30px;
+            margin-left: 560px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+        .div7{
+            font-size: 20px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin-left: 560px;
+            line-height: 10px;
+        }
+        .button4{
+            font-size: 15px;
+            border: 1px solid white;
+            color: #7d4698;
+            line-height: -0.9px;
+            border-radius: 5px;
+            padding: 5px 15px 5px 15px;
+        }
+
+
+
+        .div8{
+            margin-left: 300px;
+            font-size: 20px;
+            line-height: 10px;
+        }
+        .div9{
+            margin-left: 1000px;
+            font-size: 17px;
+            line-height: 15px;
+            margin-top: -120px;
+            
+        }
+        .button5{
+            font-size: 15px;
+            border: 1px solid #FFBF00;
+            color: black;
+            background-color: #FFBF00;
+            line-height: -0.9px;
+            border-radius: 5px;
+            padding: 5px 10px 5px 10px;
+        }
+
+
+
+        .div10{
+            margin-left: 300px;
+            line-height: 30px;
+            font-size: 20px;
+        }
+        .button6{
+            font-size: 15px;
+            color: white;
+            border: #3c2148 1px solid;  
+            background-color: #3c2148;
+            padding: 10px 15px 10px 15px;
+            border-radius: 5px;
+        }
+
+
+
+        .table{
+            font-size: 18px;
+            margin-left: 170px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding-left: 200px;
+        }
+        .select2{
+            border: 1px solid #7d4698;
+            background-color: #7d4698;
+            padding: 6px 12px;
+            font-size: 16px;
+            width: 130px;
+        }
+    </style>
+</head>
+    <header>
+        <table>
+            <tr>
+                <td><a href="http://127.0.0.1:5500/Tor/Tor.html"><img src="01.png" class="header1"></a></td>
+                <td><a href="https://donate.torproject.org/"><button class="button1">Donate Now</button></a></td>
+                <td><a href="https://www.torproject.org/about/history/"><p class="header2">About</p></a></td>
+                <td><a href="https://support.torproject.org/"><p class="header3">Support</p></a></td>
+                <td><a href="https://community.torproject.org/"><p class="header4">Community</p></a></td>
+                <td><a href="https://blog.torproject.org/"><p class="header5">Blog</p></a></td>
+                <td><a href="https://donate.torproject.org/"><p class="header6">Donate</p></a></td>
+                <td>
+                    <select class="select">
+                        <option value="English(em)" style="background-color: white; color: black;">English (en)</option>
+                        <option value="Català (ca)" style="background-color: white; color: black;">Català (ca)</option>
+                        <option value="Deutsch (de)"  style="background-color: white; color: black;">Deutsch (de)</option>
+                        <option value="Español (es)"  style="background-color: white; color: black;">Español (es)</option>
+                        <option value="فارسی (fa)"  style="background-color: white; color: black;">فارسی (fa)</option>
+                        <option value="Français (fr)"  style="background-color: white; color: black;">Français (fr)</option>
+                        <option value=" Magyar nyelv (hu)" style="background-color: white; color: black;"> Magyar nyelv (hu)</option>
+                        <option value="Íslenska (is)" style="background-color: white; color: black;">Íslenska (is)</option>
+                        <option value="Italiano (it)" style="background-color: white; color: black;">Italiano (it)</option>
+                        <option value="日本語 (ja)" style="background-color: white; color: black;">日本語 (ja)</option>
+                        <option value="ქართული (ka)" style="background-color: white; color: black;">ქართული (ka)</option>
+                        <option value="ភាសាខ្មែរ (km)" style="background-color: white; color: black;">ភាសាខ្មែរ (km)</option>
+                        <option value="한국어(ko)" style="background-color: white; color: black;">한국어(ko)</option>
+                        <option value="Português Brasil (pt-BR)" style="background-color: white; color: black;">Português Brasil (pt-BR)</option>
+                        <option value="Русский (ru)" style="background-color: white; color: black;">Русский (ru)</option>
+                        <option value="Shqip (sq)" style="background-color: white; color: black;">Shqip (sq)</option>
+                        <option value="Kiswahili (sw)" style="background-color: white; color: black;">Kiswahili (sw)</option>
+                        <option value="Türkçe (tr)" style="background-color: white; color: black;">Türkçe (tr)</option>
+                        <option value="Tiếng Việt (vi)" style="background-color: white; color: black;">Tiếng Việt (vi)</option>
+                        <option value="简体中文 (zh-CN)" style="background-color: white; color: black;">简体中文 (zh-CN)</option>
+                        <option value="正體中文 (zh-TW)" style="background-color: white; color: black;">正體中文 (zh-TW)</option>
+                    </select>
+                </td>
+                <td><a href="https://www.torproject.org/download/"><button class="button2">Download Tor Browser <img src="07.png" width="20px" style="margin-left: 5px;"></button></a></td>
+            </tr>
+        </table>
+        <p class="parth1">Browse Privately.</p>
+        <p class="parth2">Explore Freely.</p>
+        <p class="parth3">Defend yourself against tracking and surveillance. Circumvent censorship.</p>
+        <br>
+        <br>
+        <a href="https://www.torproject.org/download/"><button class="button3">Download Tor Browser<img src="07.png" width="20px" style="margin-left: 10px;"></button></a>
+        <br>
+        <br>
+        <br>
+        <br>
+    </header>
+    <br><br><br>
+    <section>
+        <img src="02.png" class="img1">
+        <p class="parth4">BLOCK TRACKERS</p>
+        <div class="div1">
+        <p>Tor Browser isolates each website you visit so third-party trackers</p>
+        <p>and ads can't follow you. Any cookies automatically clear when</p>
+        <p>you're done browsing. So will your browsing history.</p>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section>
+        <img src="03.png" class="img2" alt="">
+        <p class="parth5">DEFEND AGAINST SURVEILLANCE</p>
+        <div class="div2">
+            <p>Tor Browser prevents someone watching your connection from</p>
+            <p>knowing what websites you visit. All anyone monitoring your</p>
+            <p>browsing habits can see is that you're using Tor.</p>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section>
+        <img src="04.png" class="img3">
+        <p class="parth6">RESIST FINGERPRINTING</p>
+        <div class="div3">
+        <p>Tor Browser aims to make all users look the same, making it</p>
+        <p>difficult for you to be fingerprinted based on your browser and</p>
+        <p>device information.</p>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section>
+        <img src="05.png" class="img4">
+        <p class="parth7">MULTI-LAYERED ENCRYPTION</p>
+        <div class="div4">
+        <p>Your traffic is relayed and encrypted three times as it passes overt</p>
+        <p>the Tor network. The network is comprised of thousands of</p>
+        <p>volunteer-run servers known as Tor relays.</p>
+        </div>
+    </section>
+    <br>
+    <br>
+    <br>
+    <section>
+        <img src="06.png" class="img5">
+        <p class="parth8">BROWSE FREELY</p>
+        <div class="div5">
+        <p>With Tor Browser, you are free to access sites your home network</p>
+        <p>may have blocked.</p>
+        </div>
+    </section>
+    <br><br><br><br><br><br><br>
+    <section>
+        <p class="about">ABOUT US</p>
+       <div class="div6">
+        <p>We believe everyone should be able</p>
+        <p>to explore the internet with privacy.</p>
+        <p>We are the Tor Project, a 501(c)(3) US</p>
+        <p>nonprofit. We advance human rights</p>
+        <p>and defend your privacy online</p>
+        <p>through free software and open</p>
+        <p>networks. <a href="https://www.torproject.org/about/people/" style="color: #7d4698; text-decoration: none;">Meet our team.</a></p>
+       </div>
+    </section>
+    <br><br><br><br>
+    <footer class="footer">
+        <p class="parth9">Download Tor Browser</p>
+        <div class="div7">
+            <p>Download Tor Browser to experience real private browsing without tracking,</p>
+            <p>surveillance, or censorship.</p>
+            <br>
+            <a href="https://www.torproject.org/download/"><button class="button4">Download Tor Browser<img src="08.png" width="20px" style="margin-left: 10px;"></button></a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <section>
+            <div class="div8">
+            <p>Our mission:</p>
+            <p>To advance human rights and freedoms by creating and deploying free and</p>
+            <p>open source anonymity and privacy technologies, supporting their unrestricted</p>
+            <p>availability and use, and furthering their scientific and popular understanding.</p>
+        </div>
+        <div class="div9">
+            <p>Jobs</p>
+            <p>Blog</p>
+            <p>Contact</p>
+            <p>Press</p>
+            <p>PrivChat</p>
+            <a href="https://donate.torproject.org/"><button class="button5">Donate Now</button></a>
+        </div>
+        </section>
+        <br><br><br><br>
+        <section>
+            <div class="div10">
+                <p>SUBSCRIBE TO OUR NEWSLETTER</p>
+                <p>Get monthly updates and opportunities from the Tor Project:</p>
+                <a href="https://newsletter.torproject.org/"><button class="button6">Sing up</button></a>
+                <img src="09.png" style="margin-left: 600px; margin-top: -140px; width: 180px;">
+            </div>
+        </section>
+        <br><br><br>
+        <section>
+            <table>
+                <tr>
+                    <td class="table">Trademark, copyright notices, and rules for use by third parties can be found in our <a href="https://www.torproject.org/about/trademark/" style="color: white;"> FAQ</a> .</td>
+                    <td><select class="select2">
+                        <option value="English(em)" style="background-color: white; color: black;">English (en)</option>
+                        <option value="Català (ca)" style="background-color: white; color: black;">Català (ca)</option>
+                        <option value="Deutsch (de)"  style="background-color: white; color: black;">Deutsch (de)</option>
+                        <option value="Español (es)"  style="background-color: white; color: black;">Español (es)</option>
+                        <option value="فارسی (fa)"  style="background-color: white; color: black;">فارسی (fa)</option>
+                        <option value="Français (fr)"  style="background-color: white; color: black;">Français (fr)</option>
+                        <option value=" Magyar nyelv (hu)" style="background-color: white; color: black;"> Magyar nyelv (hu)</option>
+                        <option value="Íslenska (is)" style="background-color: white; color: black;">Íslenska (is)</option>
+                        <option value="Italiano (it)" style="background-color: white; color: black;">Italiano (it)</option>
+                        <option value="日本語 (ja)" style="background-color: white; color: black;">日本語 (ja)</option>
+                        <option value="ქართული (ka)" style="background-color: white; color: black;">ქართული (ka)</option>
+                        <option value="ភាសាខ្មែរ (km)" style="background-color: white; color: black;">ភាសាខ្មែរ (km)</option>
+                        <option value="한국어(ko)" style="background-color: white; color: black;">한국어(ko)</option>
+                        <option value="Português Brasil (pt-BR)" style="background-color: white; color: black;">Português Brasil (pt-BR)</option>
+                        <option value="Русский (ru)" style="background-color: white; color: black;">Русский (ru)</option>
+                        <option value="Shqip (sq)" style="background-color: white; color: black;">Shqip (sq)</option>
+                        <option value="Kiswahili (sw)" style="background-color: white; color: black;">Kiswahili (sw)</option>
+                        <option value="Türkçe (tr)" style="background-color: white; color: black;">Türkçe (tr)</option>
+                        <option value="Tiếng Việt (vi)" style="background-color: white; color: black;">Tiếng Việt (vi)</option>
+                        <option value="简体中文 (zh-CN)" style="background-color: white; color: black;">简体中文 (zh-CN)</option>
+                        <option value="正體中文 (zh-TW)" style="background-color: white; color: black;">正體中文 (zh-TW)</option>
+                        </select></td>
+                </tr>
+            </table>
+        </section>
+        <br>
+    </footer>
+    
+</body>
+</html>
